@@ -1,0 +1,5 @@
+puts "My Name: Sasha Angermueller"
+puts "My Birthday: may 23,2000"
+puts "My hobbies: Reading, Writing, Editing, and Video gaming"
+puts "My favorite book: Ther Artemis Fowl Series of books"
+puts "My favorite movie: Monty Python Quest for the Holy Grail"
