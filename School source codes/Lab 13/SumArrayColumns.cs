@@ -19,7 +19,7 @@ class MainClass {
     int[,] Arr1 = new int[3,4];
     int[] blegh = new int[4];
     int count = 0, counter = 0, test;
-    Console.WriteLine("What are the arrey array values: ");
+    Console.WriteLine("What are the array values: ");
     //Random rnd = new Random(Guid.NewGuid().GetHashCode()/13246);
     while (count < 3){ 
       test = Convert.ToInt32(Console.ReadLine());
