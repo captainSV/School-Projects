@@ -11,6 +11,6 @@ public class Faculty extends Employee{
     this.rank = rank;
   }
   public String toString(){
-    return "Faculty: " + name;
+    return String.format("Faculty: %s, address: %s, Phone: %s, Email: %s, Office: %s, Office Hours: %s, Rank: %s, Salary: %s, Date of Hire: %s",name,address,phoneNumber,emailAddress,office,officeHours,rank,salary,dateHired);
   }
 }

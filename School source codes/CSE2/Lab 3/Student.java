@@ -9,6 +9,6 @@ public class Student extends Person{
     classStatus = cStatus;
   }
   public String toString(){
-    return "Student: " + name;
+    return String.format("Student: %s, Class: %s, address: %s, Phone: %s, Email: %s",name,classStatus,address,phoneNumber,emailAddress);
   }
 }

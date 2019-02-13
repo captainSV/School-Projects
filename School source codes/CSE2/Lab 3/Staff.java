@@ -9,6 +9,6 @@ public class Staff extends Employee{
     this.title = title;
   }
   public String toString(){
-    return "Staff: " + name;
+    return String.format("Faculty: %s, address: %s, Phone: %s, Email: %s, Office: %s, Title: %s, Salary: %s, Date of Hire: %s",name,address,phoneNumber,emailAddress,office,title,salary,dateHired);
   }
 }

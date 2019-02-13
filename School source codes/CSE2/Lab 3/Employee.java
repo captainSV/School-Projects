@@ -13,6 +13,6 @@ public class Employee extends Person{
     dateHired = hired;
   }
   public String toString(){
-    return "Employee: " + name;
+    return String.format("Employee: %s, address: %s, Phone: %s, Email: %s, Office: %s, Salary: %s, Date of Hire: %s",name,address,phoneNumber,emailAddress,office,salary,dateHired);
   }
 }

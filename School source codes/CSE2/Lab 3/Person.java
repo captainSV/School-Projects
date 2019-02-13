@@ -26,6 +26,6 @@ public class Person{
     return emailAddress;
   }
   public String toString(){
-    return "Person: " + name;
+    return String.format("Person: %s, address: %s, Phone: %s, Email: %s",name,address,phoneNumber,emailAddress);
   }
 }
