@@ -1,0 +1,28 @@
+Main
+       main
+                  scaner = new UserInput
+                  yeet = ""
+                  yeett = true
+                  PRINT("What file to copy from?")
+                  WHILE(yeett)
+                        TRY
+                              scan = new UserInput(new File(scaner)
+                              WHILE(scan.hasNextLine())
+                                    yeet += scan.nextLine()
+                              END
+                              BREAK
+                        END
+                        catch(Exception t
+                              PRINT("That's not a findable file! Would you like to try again?")
+                        END
+                  END
+                  PRINT("What file to copy to?");
+                  yeetyeet = yeet
+                  try (out = new UserOutput(new FileOutput(yeetyeet)))
+                        out.print(yeet)
+                  END
+                  catch(Exception m)
+                        PRINT("Something went wrong")
+                  END
+      END
+END
